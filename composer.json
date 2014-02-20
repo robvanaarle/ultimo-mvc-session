@@ -1,0 +1,36 @@
+{
+    "name": "robvanaarle/ultimo-session-mvc",
+    "description": "Easy integration for custom session handling in Ultimo MVC",
+    "type": "library",
+    "keywords": [
+        "session",
+        "custom",
+        "UltimoMVC"
+    ],
+    "license": "BSD-3-Clause",
+    "authors": [
+	  		{
+	    	  "name": "Rob van Aarle"
+	  		}
+	  ],
+    "repositories": [
+      	{
+        	"type": "vcs",
+        	"url": "https://github.com/robvanaarle/ultimo-session"
+      	},
+      	{
+        	"type": "vcs",
+        	"url": "https://github.com/robvanaarle/ultimo-mvc"
+      	}
+    ],
+    "require": {
+        "robvanaarle/ultimo-session": "dev-master",
+        "robvanaarle/ultimo-mvc": "dev-master"
+    },
+    "autoload": {
+    		"psr-4": {
+       			"ultimo\\": "src/ultimo/"
+    		}
+  }
+}
+
