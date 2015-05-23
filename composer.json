@@ -1,5 +1,5 @@
 {
-    "name": "robvanaarle/ultimo-session-mvc",
+    "name": "robvanaarle/ultimo-mvc-session",
     "description": "Easy integration for custom session handling in Ultimo MVC",
     "type": "library",
     "keywords": [
